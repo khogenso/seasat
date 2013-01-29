@@ -5,4 +5,8 @@ SRC = test.c \
 	dates.c 
 
 all:
-	c++ -o seasat_decoder $(SRC) -lm
+	c++ -o seasat_decoder $(SRC) -lm -I../include
+
+clean:
+	rm seasat_decoder
+
