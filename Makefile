@@ -12,4 +12,7 @@ all:
 	cp decoder/seasat_decoder bin
 
 clean:
+	make clean -C create_roi_in
+	make clean -C fix_headers
+	make clean -C decoder
 	rm -f bin/*
