@@ -1,6 +1,6 @@
 target: all
 
-INCLUDES = -I/home/talogan/ASF_MapReady/include -Ilibsgp4
+INCLUDES = -Ilibsgp4 -I../include
 LIBS = libfftw3f.a libsgp4.a
 SRC = create_roi_in.c \
 	dates.c \
