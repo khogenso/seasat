@@ -1,0 +1,5 @@
+To compile, you'll need to get the fftw static library.
+
+On insar-dev1:
+  cp /home/khogenso/asf_tools/lib/libfftw3f.a .
+
