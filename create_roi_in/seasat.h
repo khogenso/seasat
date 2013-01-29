@@ -161,6 +161,7 @@ void print_decoded_header(char *outheadername,int major_cnt,long int this_sync,
 int get_next_frameno(FILE *fpin, int aligned);
 void create_input_tle_file(julian_date target_date,hms_time target_time,const char *ofile);
 void get_next_tle_time(FILE *fpin, int *this_year, int *this_day, int *this_msec);
+int time2rev(julian_date target_date,hms_time target_time);
 void propagate_state_vector(const char* infile);
 void decode_headers(SEASAT_raw_header *r, unsigned char *buf, int *header);
 int decode_payload(unsigned char *buf, unsigned char *obuff, int *optr);

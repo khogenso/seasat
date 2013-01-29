@@ -19,4 +19,4 @@ all: libsgp4.a
 	c++ -o create_roi_in $(SRC) $(INCLUDES) $(LIBS) -lm
 
 clean:
-	rm -f *.o libsgp4.a create_roi_in
+	rm -f *.o create_roi_in
